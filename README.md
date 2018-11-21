@@ -5,7 +5,7 @@
 # slack-webhook
 A minimal client for Slack's [Incoming Webhooks](https://api.slack.com/incoming-webhooks) API.
 
-By default uses http.DefaultClient to post the payload. This can be be overriden by changing the Client variable in the Client struct
+By default, uses http.DefaultClient to post the payload. This can be overridden by changing the Client variable in the Client struct
 
 [embedmd]:# (webhook.go /type Client.*/ /}/)
 ```go
@@ -37,13 +37,13 @@ func main() {
 ```
 
 ### Configuration
-To get your webhook url:
+To get your webhook URL:
  1. go to [Incoming Webhooks](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks) Slack app
  2. choose your team and add a configuration
  3. choose the default channel and add integration
 
 Further configuration can be added in the integration settings. 
-The default configuration can also be overriden with te Payload object
+The default configuration can also be overridden in the Payload struct
 
 [embedmd]:# (payload.go /type Payload.*/ /}/)
 ```go
