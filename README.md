@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/rbague/slack-webhook?status.png)](https://godoc.org/github.com/rbague/slack-webhook)
+[![GoDoc](https://godoc.org/github.com/rbague/slack-webhook?status.svg)](https://godoc.org/github.com/rbague/slack-webhook)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rbague/slack-webhook)](https://goreportcard.com/report/github.com/rbague/slack-webhook)
 [![Build Status](https://travis-ci.org/rbague/slack-webhook.svg)](https://travis-ci.org/rbague/slack-webhook)
 
